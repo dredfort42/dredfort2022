@@ -22,7 +22,7 @@ pod 'dredfort2022'
 
 ## Author
 
-102029973, dnovikov@me.com
+dredfor42, dredfor.42@gmail.com
 
 ## License
 

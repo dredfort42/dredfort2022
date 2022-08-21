@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'dredfort2022'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of dredfort2022.'
+  s.summary          = '42 Piscine iOS Swift - Day 08 pod dredfort2022.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,17 +18,17 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  42 Piscine iOS Swift - Day 08 pod dredfort2022 is a part of article manager
+  DESC
 
-  s.homepage         = 'https://github.com/102029973/dredfort2022'
+  s.homepage         = 'https://github.com/dredfort42'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '102029973' => 'dnovikov@me.com' }
-  s.source           = { :git => 'https://github.com/102029973/dredfort2022.git', :tag => s.version.to_s }
+  s.author           = { 'dredfort42' => 'dredfort.42@gmail.com' }
+  s.source           = { :git => 'https://github.com/dredfort42/Swift.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '15.5'
 
   s.source_files = 'dredfort2022/Classes/**/*'
   
@@ -37,6 +37,6 @@ TODO: Add long description of the pod here.
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+   s.frameworks = 'UIKit', 'CoreData'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
