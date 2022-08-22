@@ -592,7 +592,8 @@
 				AFF228DD28B2704C00DFE5FE /* Model.xcdatamodel */,
 			);
 			currentVersion = AFF228DD28B2704C00DFE5FE /* Model.xcdatamodel */;
-			path = article.xcdatamodeld;
+			name = article.xcdatamodeld;
+			path = ../article.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
