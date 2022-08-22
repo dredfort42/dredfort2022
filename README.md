@@ -22,7 +22,7 @@ pod 'dredfort2022'
 
 ## Author
 
-dredfor42, dredfor.42@gmail.com
+dredfort42, dredfort.42@gmail.com
 
 ## License
 
