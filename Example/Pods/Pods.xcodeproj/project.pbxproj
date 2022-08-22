@@ -43,7 +43,7 @@
 /* Begin PBXFileReference section */
 		0FFF6FE96F04BDF332F7F1FB301CC607 /* Pods-dredfort2022_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dredfort2022_Example-dummy.m"; sourceTree = "<group>"; };
 		10F065564EBF4586A7548704FC807B52 /* dredfort2022.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = dredfort2022.release.xcconfig; sourceTree = "<group>"; };
-		17AADBA8E4796E547D78344A7DBBE3BF /* dredfort2022 */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = dredfort2022; path = dredfort2022.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		17AADBA8E4796E547D78344A7DBBE3BF /* dredfort2022.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = dredfort2022.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CF8D3BAD790AF8716D87E7965F560ED /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		22EB5036228DA5DF273D2EFD2059F777 /* Pods-dredfort2022_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-dredfort2022_Example.modulemap"; sourceTree = "<group>"; };
 		355AA054AA2882FEEEF4EE20B78B1A52 /* Pods-dredfort2022_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-dredfort2022_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -66,10 +66,10 @@
 		8A30261CBD692B0B651D70F7A9BE7FB7 /* Pods-dredfort2022_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-dredfort2022_Example.release.xcconfig"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A70BD65165500FFF959F358F18EB57D9 /* Pods-dredfort2022_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-dredfort2022_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		AFE49B2628B35DAC00EFB6C4 /* Article+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Article+CoreDataClass.swift"; path = "Example/Article+CoreDataClass.swift"; sourceTree = "<group>"; };
-		AFE49B2728B35DAC00EFB6C4 /* Article+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Article+CoreDataProperties.swift"; path = "Example/Article+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		AFE49B2628B35DAC00EFB6C4 /* Article+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Article+CoreDataClass.swift"; path = "dredfort2022/Classes/Article+CoreDataClass.swift"; sourceTree = "<group>"; };
+		AFE49B2728B35DAC00EFB6C4 /* Article+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Article+CoreDataProperties.swift"; path = "dredfort2022/Classes/Article+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		AFE49B2A28B35E3300EFB6C4 /* ArticleManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ArticleManager.swift; path = dredfort2022/Classes/ArticleManager.swift; sourceTree = "<group>"; };
-		AFE49B2C28B37F0700EFB6C4 /* Model.xcdatamodel */ = {isa = PBXFileReference; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		AFE49B2C28B37F0700EFB6C4 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		BFFD2035704ACAE252E9C6D5D0D911AD /* Pods-dredfort2022_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-dredfort2022_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C03F5AAAC317BAA8D9CED0E7E8BBA18B /* dredfort2022-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "dredfort2022-dummy.m"; sourceTree = "<group>"; };
 		C3039D342107B2DBBC061A67210EDEF4 /* dredfort2022.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = dredfort2022.debug.xcconfig; sourceTree = "<group>"; };
@@ -232,7 +232,7 @@
 		FE6DC2C40A0E26D84E7D9076DBC36C9F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				17AADBA8E4796E547D78344A7DBBE3BF /* dredfort2022 */,
+				17AADBA8E4796E547D78344A7DBBE3BF /* dredfort2022.framework */,
 				596B7D31BCD47FFDCDF248DFE5344C62 /* Pods-dredfort2022_Example */,
 				442EEED3B33A532242C128BCD532732E /* Pods-dredfort2022_Tests */,
 			);
@@ -284,7 +284,7 @@
 			);
 			name = dredfort2022;
 			productName = dredfort2022;
-			productReference = 17AADBA8E4796E547D78344A7DBBE3BF /* dredfort2022 */;
+			productReference = 17AADBA8E4796E547D78344A7DBBE3BF /* dredfort2022.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		8C8BDD3A4444539CEBAC97FDD93C0C12 /* Pods-dredfort2022_Example */ = {
@@ -474,6 +474,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MARKETING_VERSION = 0.2.1;
 				MODULEMAP_FILE = "Target Support Files/dredfort2022/dredfort2022.modulemap";
 				PRODUCT_MODULE_NAME = dredfort2022;
 				PRODUCT_NAME = dredfort2022;
@@ -605,7 +606,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -633,6 +634,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MARKETING_VERSION = 0.2.1;
 				MODULEMAP_FILE = "Target Support Files/dredfort2022/dredfort2022.modulemap";
 				PRODUCT_MODULE_NAME = dredfort2022;
 				PRODUCT_NAME = dredfort2022;
@@ -733,7 +735,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
