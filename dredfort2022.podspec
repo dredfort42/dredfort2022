@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'dredfort2022'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = '42 Piscine iOS Swift - Day 08 pod dredfort2022.'
 
 # This description is used to generate tags and improve search results.
@@ -38,6 +38,6 @@ Pod::Spec.new do |s|
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-   s.frameworks = 'UIKit', 'CoreData'
+   s.frameworks = 'Foundation', 'UIKit', 'CoreData'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
