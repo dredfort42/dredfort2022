@@ -25,10 +25,11 @@ Pod::Spec.new do |s|
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'dredfort42' => 'dredfort.42@gmail.com' }
-  s.source           = { :git => 'https://github.com/dredfort42/Swift.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/dredfort42/dredfort2022.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '15.5'
+	s.swift_version = '4.0'
+  s.ios.deployment_target = '15.0'
 
   s.source_files = 'dredfort2022/Classes/**/*'
   
