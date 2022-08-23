@@ -17,6 +17,7 @@
 		916F4F0802C247151745310B88D334E3 /* dredfort2022-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C03F5AAAC317BAA8D9CED0E7E8BBA18B /* dredfort2022-dummy.m */; };
 		985F2033916E34A363792A4981952C57 /* Pods-dredfort2022_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 843D7040B68C9B21584A56BE5D698C26 /* Pods-dredfort2022_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AE0E5CE439C071AF31E0D995903FFCEE /* Pods-dredfort2022_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EABC76DD4D968B5626D342ACB18E1520 /* Pods-dredfort2022_Tests-dummy.m */; };
+		AF96205128B4BFE900787DA0 /* article.xcdatamodeld in Resources */ = {isa = PBXBuildFile; fileRef = AFE49B2D28B37F0700EFB6C4 /* article.xcdatamodeld */; };
 		AFE49B2828B35DAC00EFB6C4 /* Article+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE49B2628B35DAC00EFB6C4 /* Article+CoreDataClass.swift */; };
 		AFE49B2928B35DAC00EFB6C4 /* Article+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE49B2728B35DAC00EFB6C4 /* Article+CoreDataProperties.swift */; };
 		AFE49B2B28B35E3300EFB6C4 /* ArticleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE49B2A28B35E3300EFB6C4 /* ArticleManager.swift */; };
@@ -359,6 +360,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF96205128B4BFE900787DA0 /* article.xcdatamodeld in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -474,7 +476,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MARKETING_VERSION = 0.2.1;
+				MARKETING_VERSION = 0.4.4;
 				MODULEMAP_FILE = "Target Support Files/dredfort2022/dredfort2022.modulemap";
 				PRODUCT_MODULE_NAME = dredfort2022;
 				PRODUCT_NAME = dredfort2022;
@@ -634,7 +636,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MARKETING_VERSION = 0.2.1;
+				MARKETING_VERSION = 0.4.4;
 				MODULEMAP_FILE = "Target Support Files/dredfort2022/dredfort2022.modulemap";
 				PRODUCT_MODULE_NAME = dredfort2022;
 				PRODUCT_NAME = dredfort2022;
