@@ -17,9 +17,9 @@
 		916F4F0802C247151745310B88D334E3 /* dredfort2022-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C03F5AAAC317BAA8D9CED0E7E8BBA18B /* dredfort2022-dummy.m */; };
 		985F2033916E34A363792A4981952C57 /* Pods-dredfort2022_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 843D7040B68C9B21584A56BE5D698C26 /* Pods-dredfort2022_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AE0E5CE439C071AF31E0D995903FFCEE /* Pods-dredfort2022_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EABC76DD4D968B5626D342ACB18E1520 /* Pods-dredfort2022_Tests-dummy.m */; };
-		AF96205128B4BFE900787DA0 /* article.xcdatamodeld in Resources */ = {isa = PBXBuildFile; fileRef = AFE49B2D28B37F0700EFB6C4 /* article.xcdatamodeld */; };
-		AFE49B2828B35DAC00EFB6C4 /* Article+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE49B2628B35DAC00EFB6C4 /* Article+CoreDataClass.swift */; };
-		AFE49B2928B35DAC00EFB6C4 /* Article+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE49B2728B35DAC00EFB6C4 /* Article+CoreDataProperties.swift */; };
+		AF96205728B4CD9C00787DA0 /* article.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AF96205528B4CD9C00787DA0 /* article.xcdatamodeld */; };
+		AF96205A28B4CE1A00787DA0 /* Article+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF96205828B4CE1A00787DA0 /* Article+CoreDataClass.swift */; };
+		AF96205B28B4CE1A00787DA0 /* Article+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF96205928B4CE1A00787DA0 /* Article+CoreDataProperties.swift */; };
 		AFE49B2B28B35E3300EFB6C4 /* ArticleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE49B2A28B35E3300EFB6C4 /* ArticleManager.swift */; };
 		F472E9A4C9E4F587E97096A46B924703 /* dredfort2022-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 52C6AC1F2D5AF4F7E0FDF54BCA8F252F /* dredfort2022-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
@@ -67,10 +67,10 @@
 		8A30261CBD692B0B651D70F7A9BE7FB7 /* Pods-dredfort2022_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-dredfort2022_Example.release.xcconfig"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A70BD65165500FFF959F358F18EB57D9 /* Pods-dredfort2022_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-dredfort2022_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		AFE49B2628B35DAC00EFB6C4 /* Article+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Article+CoreDataClass.swift"; path = "dredfort2022/Classes/Article+CoreDataClass.swift"; sourceTree = "<group>"; };
-		AFE49B2728B35DAC00EFB6C4 /* Article+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Article+CoreDataProperties.swift"; path = "dredfort2022/Classes/Article+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		AF96205628B4CD9C00787DA0 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		AF96205828B4CE1A00787DA0 /* Article+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Article+CoreDataClass.swift"; path = "dredfort2022/Classes/Article+CoreDataClass.swift"; sourceTree = "<group>"; };
+		AF96205928B4CE1A00787DA0 /* Article+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Article+CoreDataProperties.swift"; path = "dredfort2022/Classes/Article+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		AFE49B2A28B35E3300EFB6C4 /* ArticleManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ArticleManager.swift; path = dredfort2022/Classes/ArticleManager.swift; sourceTree = "<group>"; };
-		AFE49B2C28B37F0700EFB6C4 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		BFFD2035704ACAE252E9C6D5D0D911AD /* Pods-dredfort2022_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-dredfort2022_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C03F5AAAC317BAA8D9CED0E7E8BBA18B /* dredfort2022-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "dredfort2022-dummy.m"; sourceTree = "<group>"; };
 		C3039D342107B2DBBC061A67210EDEF4 /* dredfort2022.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = dredfort2022.debug.xcconfig; sourceTree = "<group>"; };
@@ -163,9 +163,9 @@
 		70DB1CA4374B9F637056D48D9D018397 /* dredfort2022 */ = {
 			isa = PBXGroup;
 			children = (
-				AFE49B2D28B37F0700EFB6C4 /* article.xcdatamodeld */,
-				AFE49B2628B35DAC00EFB6C4 /* Article+CoreDataClass.swift */,
-				AFE49B2728B35DAC00EFB6C4 /* Article+CoreDataProperties.swift */,
+				AF96205528B4CD9C00787DA0 /* article.xcdatamodeld */,
+				AF96205828B4CE1A00787DA0 /* Article+CoreDataClass.swift */,
+				AF96205928B4CE1A00787DA0 /* Article+CoreDataProperties.swift */,
 				AFE49B2A28B35E3300EFB6C4 /* ArticleManager.swift */,
 				A557C244D7A5E376E717DF787057AA80 /* Pod */,
 				4E394C1A6ED69B97AF6EB0014D0360CC /* Support Files */,
@@ -360,7 +360,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF96205128B4BFE900787DA0 /* article.xcdatamodeld in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,8 +393,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				AFE49B2B28B35E3300EFB6C4 /* ArticleManager.swift in Sources */,
-				AFE49B2928B35DAC00EFB6C4 /* Article+CoreDataProperties.swift in Sources */,
-				AFE49B2828B35DAC00EFB6C4 /* Article+CoreDataClass.swift in Sources */,
+				AF96205B28B4CE1A00787DA0 /* Article+CoreDataProperties.swift in Sources */,
+				AF96205728B4CD9C00787DA0 /* article.xcdatamodeld in Sources */,
+				AF96205A28B4CE1A00787DA0 /* Article+CoreDataClass.swift in Sources */,
 				916F4F0802C247151745310B88D334E3 /* dredfort2022-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -476,7 +476,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MARKETING_VERSION = 0.4.4;
+				MARKETING_VERSION = 0.5.0;
 				MODULEMAP_FILE = "Target Support Files/dredfort2022/dredfort2022.modulemap";
 				PRODUCT_MODULE_NAME = dredfort2022;
 				PRODUCT_NAME = dredfort2022;
@@ -636,7 +636,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MARKETING_VERSION = 0.4.4;
+				MARKETING_VERSION = 0.5.0;
 				MODULEMAP_FILE = "Target Support Files/dredfort2022/dredfort2022.modulemap";
 				PRODUCT_MODULE_NAME = dredfort2022;
 				PRODUCT_NAME = dredfort2022;
@@ -792,15 +792,16 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		AFE49B2D28B37F0700EFB6C4 /* article.xcdatamodeld */ = {
+		AF96205528B4CD9C00787DA0 /* article.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				AFE49B2C28B37F0700EFB6C4 /* Model.xcdatamodel */,
+				AF96205628B4CD9C00787DA0 /* Model.xcdatamodel */,
 			);
-			currentVersion = AFE49B2C28B37F0700EFB6C4 /* Model.xcdatamodel */;
+			currentVersion = AF96205628B4CD9C00787DA0 /* Model.xcdatamodel */;
 			name = article.xcdatamodeld;
-			path = Example/../article.xcdatamodeld;
+			path = dredfort2022/Assets/article.xcdatamodeld;
 			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
 		};
 /* End XCVersionGroup section */
 	};
